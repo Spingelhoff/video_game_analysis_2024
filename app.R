@@ -41,7 +41,7 @@ ui <- page_fluid(
         max = year(max(data$release_date, na.rm = TRUE)),
         value = 2010,
         sep = "",
-        step = 5
+        ticks = FALSE
       ),
       align = "center"
     ),
